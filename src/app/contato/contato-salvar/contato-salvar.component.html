@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      TUDO DNV
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="ion-padding">
+<p>Nome</p>
+<ion-input type="text" [(ngModel)]="contato.nome"></ion-input>
+<p>Telefone</p>
+<ion-input type="text" [(ngModel)]="contato.telefone"></ion-input>
+
+<ion-button (click)="salvar()">Salvar</ion-button>
+<ion-button href=''>Voltar</ion-button>
+
+
+  </div>
+
+
+</ion-content>
